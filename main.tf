@@ -4,3 +4,9 @@ module "module" {
   vmc_token = var.vmc_token
   host = var.host
 }
+
+variable "host" {
+}
+
+variable "vmc_token" {
+}
